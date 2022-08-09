@@ -44,5 +44,6 @@ Then configure the rules you want to use under the rules section.
 * styles-after-export
 * dont-use-react-object
 * avoid-dispatch-setstateaction
-
+* no-top-return
+* immediately-export-styled
 
