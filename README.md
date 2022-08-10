@@ -87,7 +87,7 @@ interface A {
 }
 ```
 
-Not these are not equivalent. The full type of `Dispatch<SetStateAction<T>>` is:
+Note these are not equivalent. The full type of `Dispatch<SetStateAction<T>>` is:
 
 ```ts
 (action: T | ((prevState: T) => T)) => void;
