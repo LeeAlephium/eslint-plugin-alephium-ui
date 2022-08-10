@@ -73,7 +73,7 @@ Ok:
 
 Not ok:
 
-```js
+```ts
 interface A {
   callback: Dispatch<SetStateAction<string>>;
 }
@@ -81,7 +81,7 @@ interface A {
 
 Ok:
 
-```js
+```ts
 interface A {
   callback: (string) => void;
 }
@@ -133,7 +133,7 @@ export default styled.div`
 
 Not ok:
 
-```js
+```ts
 interface A {
   thing: string;
   className?: string;
@@ -143,7 +143,7 @@ interface A {
 
 Ok:
 
-```js
+```ts
 interface A {
   thing: string;
   hello: string;
